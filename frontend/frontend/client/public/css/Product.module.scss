@@ -1,0 +1,224 @@
+// PRODUCT STYLE
+
+.product{
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 195px;
+    height: 80%;
+
+    .addButtonContainer{
+        width: 70%;
+        height: 12%;
+    }
+
+    .productImage{
+        margin-top: 12px;
+        width: 80%;
+        height: 65%;
+        border: 2px solid green;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+// **** END **** //
+
+
+// LATEST PRODUCT LIST
+.latestProductList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    //background-color: black;
+
+
+    .productsContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 65%;
+        height: 100%;
+        //background-color: red;
+    }
+
+}
+
+// **** END **** //
+
+
+
+// PRODUCT DETAIL PAGE
+.productDetailPage{
+    //display: flex;
+    //justify-content: center;
+    //background-color: red;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 2.5fr 5fr;
+}
+
+
+// **** END **** //
+
+
+
+// PRODUCT DETAIL
+
+.productDetailWrapper{
+    //margin-top: 30px;
+    //background-color: black;
+    width: 100%;
+    //height: 35%;
+    display: flex;
+    justify-content: center;
+    //align-items: center;
+
+    .productDetailContainer{
+        display: grid;
+        grid-template-rows: 1fr 12fr;
+        //border: 2px solid grey;
+        //background-color: grey;
+        width: 100%;
+        height: 100%;
+       
+        .productDetailHead{
+            //border: 2px solid black;
+            width: 100%;
+        }
+
+        .productDetail{
+            //background-color: green;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+
+            .productImg{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                //background-color: purple;
+
+                img{
+                    width: 70%;
+                    height: 60%;
+                  //  border: 2px solid black;
+                }
+            }
+
+            .productInfo{
+                //background-color: pink;
+                display: grid;
+                grid-template-rows: 2fr 5fr;
+
+                .productDescription{
+                  //border: 2px solid black;
+                }
+
+                .productPayment{
+                    //border-top: 2px solid black;
+
+                    .pixPay{
+                        
+                        border-top: 2px dashed black;
+                        .buy{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-top: 2%;
+                            //border: 2px solid black;
+
+                            .buyButtonWrapper{
+                                margin: 5px 10px;
+                                width: 40%;
+                            }
+                        }
+                    }
+
+                    .creditCard{
+                        display: flex;
+                        flex-direction: row;
+                        border: 2px solid black;
+                        border-radius: 5px;
+                        align-items: center;
+                        
+
+                        .icon{
+                            margin-left: 4%;
+                        }
+
+                        .content{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            //align-items: center;
+                            line-height: 0.3cm;
+                            //border: 2px solid blue;
+                            margin: 1% 3%;
+                            margin-top: 2.3%;
+                        }
+
+                    }
+
+
+                }
+            }
+
+
+
+        }
+     }
+
+}
+
+
+// **** END **** //
+
+//**** PRODUCT DESCRIPTION ****\\
+
+.productDescriptionWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    //background-color: aqua;
+
+    //height: 70%;
+}
+
+
+.productDesc{
+    width: 90%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 10fr;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+
+
+    .descriptionTitle{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid grey;
+
+        h5{
+            margin-left: 20px
+        }
+    };
+
+    .description{
+        width: 100%;
+        border-bottom: 1px solid grey;
+    }
+
+}

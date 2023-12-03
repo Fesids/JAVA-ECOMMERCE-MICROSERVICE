@@ -1,0 +1,289 @@
+
+.cartWrapper{
+    display: flex;
+    justify-content: center;
+    //background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.cartContainer{
+    display: grid;
+    grid-template-rows: 2fr 7.5fr 2fr 4fr;
+    background-color: white;
+    width: 95%;
+    height: 100%;
+
+    .recomended{
+        //background-color: black;
+        display: grid;
+        grid-template-rows: 1fr 5fr;
+
+        .recomendedTitle{
+            //background-color: green;
+
+        }
+
+        .recomendedProductsCartListWrapper{
+            //background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
+
+    .myCart{
+        //background-color: orange;
+        display: grid;
+        grid-template-rows: 1fr 8fr;
+
+        .mycartTitle{
+            
+            margin-top: 3%;
+            //background-color: green;
+        }
+
+        .myCartItensWrapper{
+            //background-color: blue;
+        }
+
+
+
+    }
+
+    .savedItens{
+        //background-color: black;
+    }
+
+    .cartPayment{
+        display: flex;
+        align-items: center;
+        //background-color: orange;
+
+    }
+
+}
+
+
+///
+/// 
+/// COMPONENTS
+/// 
+/// 
+.recomendedProductsCartList{
+    display:flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 95%;
+    //background-color: aqua;
+}
+
+.recomendedProductCartWrapper{
+    width: 32%;
+    //border: 2px solid black;
+}
+
+.recomendedProductCart{
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    //border: 2px solid red;
+
+    .productImg{
+        //background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .productImgWrapper{
+            //background-color: white;
+            height: 80%;
+            width: 95%;
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .productInfo{
+        display: flex;
+        align-items: center;
+        //background-color: red;
+
+        .productInfoWrapper{
+            height: 90%;
+            width: 95%;
+            //background-color: gray;
+
+            .price{
+                margin-top: 5%;
+            }
+
+            .buttonWrapper{
+                margin-top: 27%;
+                border-radius: 5px;
+                border: none;
+                //background-color: purple;
+            }
+        }
+
+
+    }
+
+}
+
+.myCartItens{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+
+.cartItem{
+    height: 30%;
+    display: grid;
+    grid-template-columns: 0.7fr 6fr;
+    border-top: 2px solid black;
+    background-color: white;
+    .cartImg{
+        //background-color: purple;
+        img{
+            width: 100%;
+            height: 50%;
+        }
+        //height: ;
+    }
+    .cartItemInfo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 4%;
+    }
+}
+
+.cartPaymentContainer{
+    display: grid;
+    grid-template-columns: 3.8fr 3fr;
+    width: 100%;
+    height: 95%;
+
+    .frete{
+        display: flex;
+        
+        
+        //background-color: purple;
+
+        .freteCalculatorContainer{
+            display: flex;
+            //justify-content: center;
+            align-items: center;
+            width: 95%;
+            height: 24%;
+            margin-top: 5%;
+            background-color: grey;
+            border-radius: 6px;
+
+
+
+            .freteCalculatorFormContainer{
+                width: 45%;
+                height: 48%;
+                //background-color: green;
+                margin-left: 8%;
+            }
+
+            .textContent{
+                font-size: 13px;
+                margin-left: 3%;
+                line-height: 1px;
+            }
+
+            p{
+                font-size: 13px;
+                margin-left: 2%;
+            }
+        }
+
+
+    }
+
+    .requestAbstract{
+        //background-color: yellow;
+        margin-top: 3%;
+
+        .requestAbstractContainer{
+            display: grid;
+            grid-template-rows: 0.6fr 0.6fr 4fr;
+
+            .title{
+                border-bottom: 1px solid black;
+                display: flex;
+                align-items: center;
+            }
+
+            .qtd{
+                border-bottom: 1px solid black;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .total{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                
+            }
+
+            .buttons{
+                display: grid;
+                //justify-content: space-between;
+                grid-template-columns: 2fr 1.4fr;
+
+                .continueButtonWrapper{
+                    background-color: green;
+                    border-radius: 5px;
+                }
+
+                .buymoreButtonWrapper{
+                    border: 1px solid blue;
+                    color: blue;
+                    border-radius: 5px;
+                    margin-right: 3%;
+                }
+            }
+        }
+    }
+
+}
+
+.freteCalculatorForm{
+    width: 100%;
+    height: 100%;
+    form{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        //justify-content: space-between;
+
+        .freteInput{
+            background-color: white;
+            width: 57%;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        .buttonWrapper{
+            background-color: blue;
+            width: 38%;
+            margin-left: 3%;
+            border-radius: 5px;
+            //width: 200px;
+        }
+    }
+}

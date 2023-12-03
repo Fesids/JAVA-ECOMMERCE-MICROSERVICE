@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CartApplication",
+            "request": "launch",
+            "mainClass": "com.application.product.CartApplication",
+            "projectName": "registration"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductApplication<registration>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.application.product.ProductApplication",
+            "projectName": "registration",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

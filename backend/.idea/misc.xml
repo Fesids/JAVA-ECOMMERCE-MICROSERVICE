@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/EurekaServer/registration/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/product/registration/pom.xml" />
+        <option value="$PROJECT_DIR$/Gate-way/registration/pom.xml" />
+        <option value="$PROJECT_DIR$/Gate-way/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Cart/cart/pom.xml" />
+        <option value="$PROJECT_DIR$/category/category/pom.xml" />
+        <option value="$PROJECT_DIR$/registration-auth/registration/pom.xml" />
+        <option value="$PROJECT_DIR$/stock/stock/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="19" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

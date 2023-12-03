@@ -1,0 +1,137 @@
+.app{
+    width: 100%;
+    height: 100%;
+}
+
+
+.initial-page{
+   
+    //background-color: green;
+    display: grid;
+    grid-template-rows: 1fr 8fr 2.5fr;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.navbar-container{
+    width: 100%;
+    //height: 5%;
+    //border: 2px solid red;
+}
+
+.navbar{
+    //background-color: black;
+    //border: 2px solid blue;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+
+    .navbar-top{
+        position:absolute;
+        top: 0;
+      //  border: 2px solid grey;
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .navbar-logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            background-color:none;
+            width: 12%;
+        }
+
+        .navbar-search{
+            //background-color: white;
+            width: 70%;
+            margin-left: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .search-input::placeholder{
+                position: absolute;
+                left: 12px;
+            }
+
+            .search-input{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border: 2px solid rgb(0, 0, 0, 0.2);
+                border-radius: 3px;
+                width: 80%;
+                height: 37%;
+                background: none;
+                color: var(--GRAY-1, #9F9F9F);
+                font-family: Poppins;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            .search-submit-button{
+                border: 2px solid rgb(0, 0, 0, 0.2);
+                border-radius: 3px;
+            }
+
+
+        }
+
+    }
+
+    .navbar-bottom {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        //border: 2px solid pink;
+        border-top: 2px solid black;
+        border-bottom: 1px solid black;
+        //background-color: grey;
+        width: 100%;
+        height: 40%;
+    }
+}
+
+.body-content-container{
+    display: flex;
+    justify-content: center;
+    //background-color: pink;
+    width: 100%;
+    //height: 84%;
+
+    .body-content{
+        //background-color: blue;
+        //border: 2px solid blue;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+
+.footer-container{
+    background-color: red;
+    width: 100%;
+    height: 11%;
+    position: absolute;
+    bottom: 0px;
+    //border: 5px solid red;
+}
+
+.footer{
+    background-color: black;
+    height: 100%;
+    
+
+}

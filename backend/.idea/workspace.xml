@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9dfc733-90fc-4c3e-8ce0-66dac6804745" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/hs_err_pid2772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/replay_pid2772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/src/main/java/com/application/server/ServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/src/main/java/com/application/server/models/teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eureka-server/registration/src/test/java/com/registration/registration/RegistrationApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/hs_err_pid2772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/replay_pid2772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/java/com/application/category/CategoryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/java/com/application/category/DTO/CategoryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/java/com/application/category/ResourceServer/ResourceServerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/java/com/application/category/controllers/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/java/com/application/category/models/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/java/com/application/category/repository/CategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/java/com/application/category/services/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/java/com/application/category/services/CategoryServiceIMPL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/main/resources/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/category/src/test/java/com/application/category/RegistrationApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../category/myutils/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/hs_err_pid19836.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/replay_pid19836.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/micro/gateway/CloudGatewayApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/micro/gateway/config/GatewayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/micro/gateway/exception/JwtTokenMalformedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/micro/gateway/exception/JwtTokenMissingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/micro/gateway/filter/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/java/com/micro/gateway/util/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/roytuts/spring/boot/cloud/gateway/CloudGatewayApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/roytuts/spring/boot/cloud/gateway/config/GatewayConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/roytuts/spring/boot/cloud/gateway/exception/JwtTokenMalformedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/roytuts/spring/boot/cloud/gateway/exception/JwtTokenMissingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/roytuts/spring/boot/cloud/gateway/filter/JwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gateway/target/classes/com/roytuts/spring/boot/cloud/gateway/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/myutils/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/hs_err_pid2772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/replay_pid2772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/Configuration/FileStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/Configuration/FileStorageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/DTO/ProductDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/ProductApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/exceptions/ProductNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/exceptions/handler/ProductTrackerGlobalException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/models/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/models/teste.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/java/com/application/product/services/ProductServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/main/resources/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../product/registration/src/test/java/com/application/product/RegistrationApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/hs_err_pid2772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/replay_pid2772.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/DTO/AuthDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/DTO/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/ENUMS/UserRoles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/RegistrationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/UTILS/GeneralUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/configurations/AuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/configurations/ContextConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/configurations/CorsConfig/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/configurations/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/configurations/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/configurations/auth/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/exceptions/UserNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/exceptions/handler/UserTrackerGlobalException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/services/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/java/com/micro/registration/services/UserServiceIMPL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/main/resources/server.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../registration-auth/registration/src/test/java/com/micro/registration/RegistrationApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YDsu7UH41CHQVFHv6LBkpJD0FY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/felip/Downloads/GIT-AGR/Java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\felip\Downloads\GIT-AGR\Java\backend\stock\stock" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9dfc733-90fc-4c3e-8ce0-66dac6804745" name="Changes" comment="" />
+      <created>1700071711376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700071711376</updated>
+    </task>
+    <servers />
+  </component>
+</project>
